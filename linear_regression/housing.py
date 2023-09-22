@@ -11,13 +11,13 @@ def energy_label_to_int(energy_label: str):
     energy_label = energy_label.upper().strip()
     if energy_label == 'A++++':
         return 1
-    if energy_label == 'A+++':
+    elif energy_label == 'A+++':
         return 2
-    if energy_label == 'A++':
+    elif energy_label == 'A++':
         return 3
-    if energy_label == 'A+':
+    elif energy_label == 'A+':
         return 4
-    if energy_label == 'A':
+    elif energy_label == 'A':
         return 5
     elif energy_label == 'B':
         return 6
